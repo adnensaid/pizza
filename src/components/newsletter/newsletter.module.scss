@@ -16,6 +16,7 @@
     .newsletterText{
       display: flex;
       position: relative;
+      max-width: 75%;
       background: linear-gradient(to top, transparent 20%, var(--orange) 20% 80%, transparent 80% 100%);
       .textVertical{
         font-family: 'montserratlight';
