@@ -1,11 +1,10 @@
 @import '../../asstes/style/media-queries.scss';
 .newsletter{
-  color: var(--white);
-  min-height: 61rem;
-  position: relative;
+  min-height: 60rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
   .imgNewsletter{
     position: absolute;
     right: 0;
@@ -60,14 +59,10 @@
           margin-bottom: 3rem;
         }
         .text{
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
           font-family: 'latomedium';
           font-size: 3.3rem;
           p{
-            margin:0
+            margin: 2rem 0;
           }
         }    
       }  

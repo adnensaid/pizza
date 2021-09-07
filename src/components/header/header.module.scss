@@ -1,10 +1,11 @@
 .navbar{
-  background: linear-gradient(to right, var(--orange) 33% , transparent 33% 100% ) !important;
+  background: linear-gradient(to right, var(--orange) var(--bgWidthHeader) , transparent var(--bgWidthHeader) 100% ) !important;
   line-height: 5rem; 
   .logo{
     color: var(--white);
     font-family: 'montserratextrabold';
     font-size: 3.3rem;
+    width: 20rem;
     &::before{
       content:'#';
       font-size: 1.5rem;
