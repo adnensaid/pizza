@@ -5,7 +5,7 @@ export default class Header extends Component{
   render(){
     return(
       <header className="App-header d-flex bg-light flex-column">
-        <Navbar bg="transparent" variant="transparent" className={ Style.navbar }>
+        <Navbar  variant="transparent" className={ Style.navbar }>
           <div className="container"> 
             <Navbar.Brand href="#home" className={ Style.logo }>Pizzeria</Navbar.Brand>
             <Nav className={ Style.nav+" ms-auto" }>
