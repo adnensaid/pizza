@@ -1,0 +1,28 @@
+.about{
+  max-width: 70rem;
+  margin:auto;
+  text-align: center;
+  padding: 10rem 0;
+  .title{
+    font-family: 'latoregular';
+    font-size: 4.2rem;
+    color: var(--orange);
+    strong{
+      font-family: 'montserratblack';
+    }  
+  }
+  .text{
+    font-family: 'ralewayregular';
+    font-size: 1.8rem;
+
+  }
+  .list{
+    margin-top: 4rem;
+    li{
+      padding: 0 2rem;
+      font-family: 'ralewaybold';
+      font-size: 1.6rem;
+      cursor: pointer;
+    }
+  }
+}

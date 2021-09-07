@@ -1,0 +1,41 @@
+.masterClass{
+  padding: 8rem 0;
+  background: center center / cover url(../../asstes/images/masterclassImg.png) no-repeat;
+  .masterClassContent{
+    max-width: 60rem;
+    margin-left: auto;
+    .title{
+      text-align: right;
+      font-family: 'latoblack';
+      font-size: 4.2rem;
+      margin-bottom: 8rem;
+    }
+    .text{
+      background: var(--orange);
+      padding: 5rem;
+      .textPrimary{
+        font-family: 'latobold';
+        font-size: 5rem;
+      }
+      .textSecondary{
+        font-family: 'latoblack';
+        font-size: 4.3rem;
+        margin-bottom: 6rem;
+      }
+      .price, .heure{
+        font-family: 'latomedium';
+        font-size: 4.2rem;
+        text-align: right;
+      }
+    }
+    .apply{
+      margin-top: 4rem;
+      background: var(--orange);
+      max-width: 80%;
+      margin-left: auto;
+      font-family: 'latoblack';
+      font-size: 4.2rem;
+      padding: 4rem 0 2rem 2rem;
+    }
+  }
+}

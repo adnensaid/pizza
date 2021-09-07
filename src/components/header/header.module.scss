@@ -1,0 +1,62 @@
+.navbar{
+  background: linear-gradient(to right, var(--orange) 25% , transparent 25% 100% ) !important;
+  line-height: 5rem; 
+  .logo{
+    color: var(--white);
+    font-family: 'montserratextrabold';
+    font-size: 3.3rem;
+    &::before{
+      content:'#';
+      font-size: 1.5rem;
+    }
+    strong{
+      font-size: 3.3rem;
+      letter-spacing: .1rem;    
+    }
+  }
+  .nav{
+    a{
+      font-family: 'latoregular';
+      color: var(--white);
+      font-size: 3.3rem;
+      letter-spacing: .1rem;
+      
+    }
+  }
+}
+.banner{
+  line-height: 12rem;
+  position: relative;
+  .bannerContent{
+    background: var(--orange);
+    display: flex;
+    flex-direction: column;
+    .title{
+      font-family: 'montserratblack';
+      font-size: 20.5rem;
+      color: var(--white);
+      margin-bottom: 3.6rem;
+    }
+    .bannerText{
+      background: green;
+      position: relative;
+      h2{
+        font-family: 'montserratregular';
+        font-size: 10.4rem;
+        color: var(--white);
+        letter-spacing: 1rem;
+        position: absolute;
+        left: 0;
+      }
+      .btn{
+        font-family: 'montserratsemibold';
+        background: var(--orange);
+        border:.4rem solid var(--white);
+        border-radius:0rem;
+        font-size: 3.75rem;
+        position: absolute;
+        right: 0;
+      }      
+    }  
+  }
+}

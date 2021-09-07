@@ -1,0 +1,27 @@
+.gallery{
+  .title{
+    height: 23rem;
+    width: 23rem;
+    display: flex;
+    align-items: flex-end;
+    background: var(--orange);
+    p{
+      font-family: 'montserratblack';
+      font-size: 4.2rem;
+      color: var(--orange);
+      transform: translateX(23rem);
+      margin-left: 4rem;
+    }
+  }
+  .galleryContent{
+    display: flex;
+    flex-flow: row nowrap;
+    .img1{
+      flex: 1;
+    }
+    .lastImg{
+      flex: 1;
+      display: flex;
+    }
+  }  
+}

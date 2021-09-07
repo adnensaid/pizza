@@ -1,0 +1,34 @@
+.footer{
+  background: var(--marron);
+  padding: 6rem 0;
+  .footerContent{
+    display: flex;
+    flex-flow: row;
+    .footerDescription{
+      flex: 1;
+      .footerDescriptionTitle{
+        font-family: 'ralewaybold';
+        font-size: 2.5rem;
+      }
+      .text{
+        max-width: 28rem;
+        font-family: 'latomedium';
+        font-size: 1.8rem;
+      }
+    }
+    .footerList{
+      flex: 1;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      font-family: 'ralewaybold';
+      .footerElemTitle{
+        font-size: 2rem;
+      }
+      .footerElemList{
+        font-family: 'robotobold';
+        font-size: 1.6rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import './asstes/style/reset';
+@import './asstes/style/base';
+@import './asstes/style/fonts';
+@import './asstes/style/classes';
+@import './asstes/style/variables';
+
+.App{
+  font-size: 1.6rem;
+  background: var(--black);
+  color: var(--white);
+  .App-header{
+    min-height: 100vh;
+    background:center center / cover url(./asstes/images/pizza.png) no-repeat;
+    background-position: 0rem 0rem;
+  }
+}
+

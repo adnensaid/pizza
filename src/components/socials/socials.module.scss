@@ -1,0 +1,47 @@
+.socials{
+  .socialsList{
+    padding: 10rem 0;
+    background: linear-gradient(to right, var(--orange) 23rem, transparent 23rem 100%);
+    .title{
+      text-align: center;
+      grid-column: 1 / 3;
+      font-family: 'montserratbold';
+      font-size: 4.2rem;
+      margin-bottom: 2rem;
+    }
+    .socialsContent{
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      .text{
+        grid-column: 1 / 2;
+        grid-row: span 4;
+        max-width: 42rem;
+        font-family: 'latoregular';
+        font-size: 2.5rem;
+        padding-left: 7rem;
+      }
+      .find{
+        font-family: 'latomedium';
+        font-size: 2.5rem;
+      }
+      .socialsImg{
+        img{
+          margin-right: 2rem;    
+        }
+        
+      }
+      .ask{
+        font-family: 'latomedium';
+        font-size: 2.5rem;  
+        margin-top: 4rem;
+      }
+      .web{
+        font-family: 'latoblack';
+        font-size: 3.3rem;
+        color: var(--orange);
+      }
+    }    
+  }
+}
