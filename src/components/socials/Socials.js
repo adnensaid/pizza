@@ -28,7 +28,7 @@ export default class Socials extends Component{
                   <img src={ whatsapp } alt="whatsapp" />
                 </div>
                 <p className={ Style.ask }> | ask as here </p>
-                <a href="#" className={ Style.web }>www.#pizzeria.com</a>       
+                <span className={ Style.web }>www.#pizzeria.com</span>       
               </div>   
             </div>        
           </div>  

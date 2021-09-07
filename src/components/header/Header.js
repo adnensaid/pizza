@@ -8,7 +8,7 @@ export default class Header extends Component{
         <Navbar bg="transparent" variant="transparent" className={ Style.navbar }>
           <div className="container"> 
             <Navbar.Brand href="#home" className={ Style.logo }>Pizzeria</Navbar.Brand>
-            <Nav className="ms-auto" className={ Style.nav }>
+            <Nav className={ Style.nav+" ms-auto" }>
               <Nav.Link href="#home" className="px-5">Menu</Nav.Link>
               <Nav.Link href="#blog" className="px-5">Blog</Nav.Link>
               <Nav.Link href="#about" className="px-5">About us</Nav.Link>
